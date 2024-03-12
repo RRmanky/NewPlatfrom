@@ -1,0 +1,36 @@
+body {
+    width: 50cm;
+    height: 50cm;
+    overflow-x: hidden;
+    background-image: url('"D:\Platform\platform\singa.jpg"'); /* Ganti 'singa.jpg' dengan nama dan lokasi file gambar singa Anda */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contain {
+    width: 10cm;
+    height: 10cm;
+    background-color: rgb(165, 180, 180);
+    padding: 20px;
+    margin-left: 10%;
+}
+
+.form-group {
+    display: flex;
+    padding: 5px;
+}
+
+label {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="number"] {
+    flex: 2;
+    padding: 3px;
+}
+
+#hobi {
+    padding-left: -270cm;
+    flex: 2;
+}
