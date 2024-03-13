@@ -17,7 +17,6 @@ function tombolTekan() {
         inputPilih();
     }
 }
-
 function inputPilih() {
     btn.remove();
     const element = document.querySelectorAll('.form-group')

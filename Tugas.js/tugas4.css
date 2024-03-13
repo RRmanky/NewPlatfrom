@@ -2,15 +2,17 @@ body {
     width: 50cm;
     height: 50cm;
     overflow-x: hidden;
-    background-image: url('"C:\Users\Indra Saputra\Downloads\singa.jpg"'); /* Ganti 'singa.jpg' dengan nama dan lokasi file gambar singa Anda */
+    background-image: var(--random-background);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+body {
+    background-color: rgb(10, 14, 35); /* Default background color */
+}
 .contain {
     width: 10cm;
     height: 10cm;
-    background-color: rgb(165, 180, 180);
+    background-color: rgb(70, 107, 23);
     padding: 20px;
     margin-left: 10%;
 }
