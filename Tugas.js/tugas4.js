@@ -17,10 +17,11 @@ function tombolTekan() {
         inputPilih();
     }
 }
+
 function inputPilih() {
     btn.remove();
     const element = document.querySelectorAll('.form-group')
-    element.forEach(function (e) {
+    element.forEach(function(e) {
         e.parentNode.removeChild(e);
     });
 
@@ -49,7 +50,7 @@ function inputPilih() {
     container.appendChild(ok);
 
     const okb = document.querySelector('#btnOK');
-    okb.addEventListener('click', function (e) {
+    okb.addEventListener('click', function(e) {
         const inp = document.querySelectorAll('#pilihan')
         for (let index = 0; index < inp.length; index++) {
             tamp[index] = inp[index].value;
@@ -71,9 +72,9 @@ function inputHobi() {
     const hobiSelect = document.createElement('select');
     hobiSelect.setAttribute('id', 'hobi');
 
-    const hobi = ['membaca', 'sepakbola'];
+    const hobi = ['Volly', 'sepakbola','Basket','Futsal','Mendaki gunung'];
 
-    hobi.forEach(function (hobi) {
+    hobi.forEach(function(hobi) {
         const optionElement = document.createElement('option');
         optionElement.textContent = hobi;
         // optionElement.value = hobi;
@@ -97,7 +98,7 @@ function inputHobi() {
     container.appendChild(ok1);
 
     const tombol_OK = document.querySelector('#btn_ok');
-    tombol_OK.addEventListener('click', function (e) {
+    tombol_OK.addEventListener('click', function(e) {
         const nama = inputNama.value;
         const jmlpil = inputPilihan.value;
         var txtARy = '';
