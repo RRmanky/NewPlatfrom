@@ -3,11 +3,18 @@ body {
     height: 50cm;
     overflow-x: hidden;
 }
-
+body{
+    width: 50cm;
+    height: 50cm;
+    overflow-x: hidden;
+    background-image: url('GambarRandom.jpg');
+    background-size: cover; /* Menyesuaikan gambar dengan ukuran container */
+    background-color: rgb(215, 212, 207);
+}
 .contain {
     width: 10cm;
     height: auto;
-    background-color: aqua;
+    background-color: rgb(155, 155, 38);
     padding: 20px;
     margin-left: 10%;
 }
