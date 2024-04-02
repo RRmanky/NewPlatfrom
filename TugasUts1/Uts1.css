@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141517;
+    color: #3a4147; 
+  }
+  /* CSS Customization */
+body {
+    font-family: Arial, sans-serif;
+    color: #0a243d; /* Warna teks */
+    background-color: #2e6706;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  .animated-photo {
+    animation: movePhoto 1s infinite alternate;
+  }
+  
+  @keyframes movePhoto {
+    10% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(50px);
+    }
+
+}
+  
+  .jumbotron {
+    background-image: linear-gradient(45deg, #6e0d0d, #201280f0); /* Gradient 3D */
+    color: #fff; /* Warna teks */
+}
+  #tentang {
+    text-align: justify;
+  }
+  
+  /* Customize footer */
+  footer {
+    background-color: #080808; 
+    color: #e4dada; 
+  }
+
+  /* CSS Customization */
+.table {
+    width: 100%; 
+    margin-bottom: 1rem; 
+    color: #000000;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    vertical-align: top; 
+    border-top: 1px solid #050505;
+  }
+  
+  .table thead th {
+    vertical-align: bottom; 
+    border-bottom: 2px solid #070707;
+  }
+  
+  .table tbody + tbody {
+    border-top: 2px solid #020202; 
+  }
+  
+  
+
+  /* CSS untuk tabel */
+.table {
+    width: 100%; /*
+    margin-bottom: 1rem;
+    color: #343a40;
+  }
+  
+
+  /* CSS Customization for Table */
+.table {
+    width: 100%; 
+    margin-bottom: 1rem; 
+    background-color: #e6d6d6; 
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem; 
+    vertical-align: top; 
+    border-top: 1px solid #000000; 
+  }
+  
+  .table thead th {
+    vertical-align: bottom; 
+    border-bottom: 2px solid #000000; 
+  }
+  
+  .table tbody + tbody {
+    border-top: 2px solid #000000;
+  }
+}
+  

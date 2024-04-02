@@ -12,7 +12,7 @@
   </body>
 </html>
 <body>
-
+<body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -101,11 +101,4 @@
 </div>
 </div>
 
-<!-- Random Image -->
-<div>
-    <img src="https://picsum.photos/800/400" alt="Random Image">
-</div>
 
-</body>
-
-</html>
