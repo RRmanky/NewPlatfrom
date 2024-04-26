@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tambah-todo {
+    display: flex;
+    gap: 5px;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    width: 7cm;
+    height: 20px;
+}
+
+.show-todo .selesai {
+    text-decoration: line-through;
+}

@@ -1,0 +1,52 @@
+.container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 10cm;
+    height: 10cm;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h6 {
+    text-align: center;
+}
+
+.grup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: aqua;
+    outline: none;
+}
+
+.regis {
+    border: none;
+    width: 2cm;
+    background-color: aqua;
+    text-decoration: 1px underline red;
+    color: rgb(199, 53, 53);
+    position: absolute;
+    top: 50%;
+    left: 87%;
+    transform: translateX(-50%);
+}
+
+.Loginbtn {
+    width: 2cm;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
